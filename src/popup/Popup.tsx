@@ -21,7 +21,7 @@ export const Popup: React.FC = () => {
         Current URL: <span className="font-mono">{currentUrl}</span>
       </p>
       <a
-        href="https://github.com/utsavdotpro/starter-chrome-extension-tailwind-webpack-ts"
+        href="https://github.com/utsavdotpro/starter-chrome-extension-react-tailwind-webpack-ts"
         className="text-blue-500 hover:text-blue-700"
         target="_blank"
         rel="noopener noreferrer"

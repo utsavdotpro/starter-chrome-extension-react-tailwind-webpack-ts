@@ -1,4 +1,4 @@
-[<img src="https://ik.imagekit.io/iutsav/fork_l0RKONb5l.svg" height="30" />](https://githubbox.com/utsavdotpro/starter-chrome-extension-tailwind-webpack-ts)
+[<img src="https://ik.imagekit.io/iutsav/fork_l0RKONb5l.svg" height="30" />](https://githubbox.com/utsavdotpro/starter-chrome-extension-react-tailwind-webpack-ts)
 
 # Chrome Extension Starter Template
 
@@ -27,7 +27,7 @@ pnpm install -g degit
 Download the latest version
 
 ```bash
-degit utsavdotpro/starter-chrome-extension-tailwind-webpack-ts
+degit utsavdotpro/starter-chrome-extension-react-tailwind-webpack-ts
 ```
 
 ## Features
