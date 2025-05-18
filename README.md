@@ -4,9 +4,10 @@
 
 A modern starter template for building Chrome extensions with:
 
+[![](https://img.shields.io/badge/React-v19-61dafb?style=for-the-badge&logo=react)](https://react.dev)
 [![](https://img.shields.io/badge/Tailwind-v3-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 [![](https://img.shields.io/badge/TypeScript-v5-3178c6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
-[![](https://img.shields.io/badge/Webpack-v5-8DD6F9?style=for-the-badge&logo=webpack)](https://vitejs.dev/)
+[![](https://img.shields.io/badge/Webpack-v5-8DD6F9?style=for-the-badge&logo=webpack)](https://webpack.js.org/)
 
 ---
 
@@ -32,6 +33,7 @@ degit utsavdotpro/starter-chrome-extension-tailwind-webpack-ts
 ## Features
 
 - Manifest V3 compliant
+- React for building UI components
 - Modern JavaScript with TypeScript support
 - Styling with Tailwind CSS
 - Hot reloading during development
@@ -73,8 +75,12 @@ pnpm build
 │   └── popup.html      # Popup HTML
 ├── src/                # Source code
 │   ├── background.ts   # Background script
-│   ├── content.ts      # Content script
-│   ├── popup.ts        # Popup script
+│   ├── content/        # Content script with React components
+│   │   ├── index.tsx   # Content script entry point
+│   │   └── ContentApp.tsx # Content React component
+│   ├── popup/          # Popup script with React components
+│   │   ├── index.tsx   # Popup entry point
+│   │   └── Popup.tsx   # Popup React component
 │   └── global.css      # Global styles (includes Tailwind)
 ├── webpack.config.js   # Webpack configuration
 ├── tailwind.config.js  # Tailwind CSS configuration
@@ -85,7 +91,8 @@ pnpm build
 
 - Update the `manifest.json` file to change the extension name, description, permissions, etc.
 - Modify the icons in `public/icons/` to customize the extension icon
-- Edit the popup UI in `public/popup.html` and `src/popup.ts`
+- Edit the popup UI in `src/popup/Popup.tsx` and `public/popup.html`
+- Customize content script UI in `src/content/ContentApp.tsx`
 
 ## License
 

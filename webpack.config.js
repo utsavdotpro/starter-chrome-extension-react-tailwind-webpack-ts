@@ -6,8 +6,8 @@ module.exports = {
   devtool: "inline-source-map",
   entry: {
     background: "./src/background.ts",
-    popup: "./src/popup.ts",
-    content: "./src/content.ts",
+    popup: "./src/popup/index.tsx",
+    content: "./src/content/index.tsx",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -27,7 +27,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: [".tsx", ".ts", ".js", ".jsx"],
   },
   plugins: [
     new CopyPlugin({

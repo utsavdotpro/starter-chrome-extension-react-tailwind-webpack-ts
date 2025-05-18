@@ -1,17 +1,21 @@
 {
   "name": "chrome-extension-starter",
   "version": "1.0.0",
-  "description": "A Chrome extension starter template with TypeScript, Tailwind CSS, and Webpack",
+  "description": "A Chrome extension starter template with React, TypeScript, Tailwind CSS, and Webpack",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.config.js --watch",
     "dev": "webpack serve --config webpack.config.js"
   },
   "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "typescript": "^5.0.0"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.260",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
     "autoprefixer": "^10.4.21",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
