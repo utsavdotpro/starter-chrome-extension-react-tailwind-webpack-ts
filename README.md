@@ -1,10 +1,33 @@
+[<img src="https://ik.imagekit.io/iutsav/fork_l0RKONb5l.svg" height="30" />](https://githubbox.com/utsavdotpro/starter-chrome-extension-tailwind-webpack-ts)
+
 # Chrome Extension Starter Template
 
 A modern starter template for building Chrome extensions with:
 
-- TypeScript
-- Tailwind CSS
-- Webpack
+[![](https://img.shields.io/badge/Tailwind-v3-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
+[![](https://img.shields.io/badge/TypeScript-v5-3178c6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
+[![](https://img.shields.io/badge/Webpack-v5-8DD6F9?style=for-the-badge&logo=webpack)](https://vitejs.dev/)
+
+---
+
+## How to Reuse Locally?
+
+Use `degit` to download the repository locally.
+
+> **❓ What is [degit](https://github.com/Rich-Harris/degit)?**  
+> degit downloads a copy of git repository with downloading its entire git history.
+
+Install degit globally.
+
+```bash
+pnpm install -g degit
+```
+
+Download the latest version
+
+```bash
+degit utsavdotpro/starter-chrome-extension-tailwind-webpack-ts
+```
 
 ## Features
 
@@ -19,27 +42,18 @@ A modern starter template for building Chrome extensions with:
 ### Installation
 
 ```bash
-# Install dependencies
-npm install
-# or
 pnpm install
 ```
 
 ### Development
 
 ```bash
-# Start development server with hot reload
-npm run dev
-# or
 pnpm dev
 ```
 
 ### Build for Production
 
 ```bash
-# Build the extension for production
-npm run build
-# or
 pnpm build
 ```
 
